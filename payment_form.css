@@ -1,0 +1,59 @@
+fieldset{
+    color: black;
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    font: optional;
+    color: #fbff04;
+
+}
+h3{
+    color: aqua;
+}
+html{
+    background-color: black;
+}
+*
+{
+    color: rgb(0, 255, 51);
+    font-family: 'Pixelify Sans', cursive;
+    
+}
+option,select{
+    color: blue;
+}
+
+input{
+    color: black;
+}
+legend{
+    background-color: #fbff04;
+    color: #12a4d9;
+    
+}
+body{
+    padding: 20px;
+    border: 5px solid rgb(225, 225, 0);
+    margin: 20px;
+
+}
+nav a{
+   
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    color: rebeccapurple;
+}
+nav{
+    background-color: yellow;
+    overflow: hidden;
+}
+nav a:hover{
+    color: black;
+}
+nav a:visited{
+    color: white;
+}
+

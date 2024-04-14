@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="democ.css">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Gmail Login</h1>
+        <h2>Details</h2>
+        <p>Gmail: <input type="email"></p>
+        <p>Password: <input type="password" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male: <input type="radio" name="Gender"></p>
+            <br>
+            <p>female: <input type="radio" name="Gender"></p>
+        </fieldset>
+        <p>Age: <input type="number"></p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>Payment method
+            <select name="Payment_information" id="Payment_information">
+                <option value="">Select Your Payment Type</option>
+                <option value="Card">Card</option>
+                <option value="UPI">UPI</option>
+                <option value="Phonepe">Phonepe</option>
+            </select>
+        </p>
+        <p>
+            Expiry_date: <input type="date" name="Expiry_date" id="Expiry_date">
+        </p>
+        <input type="submit" value="Submit Now">
+    </form>
+</body>
+</html>
